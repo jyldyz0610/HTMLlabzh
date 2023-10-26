@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Mein FastAPI Projekt</title>
+</head>
+<body>
+    <h1>{{ name }}</h1>
+    <h2>Meine Fähigkeiten:</h2>
+    <ul>
+        {% for skill in skills %}
+            <li>{{ skill }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
